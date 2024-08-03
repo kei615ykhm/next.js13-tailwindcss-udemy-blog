@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body>
-        <header>Header</header>
+        <header className="text-red-300">Header</header>
         {children}
         <footer>Footer</footer>
       </body>
