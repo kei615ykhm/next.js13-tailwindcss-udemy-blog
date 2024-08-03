@@ -1,11 +1,9 @@
 import React from "react";
 
-const Header = () => {
+export const PageHeader: React.FC = () => {
   return (
     <header>
-      <div></div>
+      <div>Header</div>
     </header>
   );
 };
-
-export default Header;
