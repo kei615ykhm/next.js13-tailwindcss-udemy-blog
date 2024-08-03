@@ -1,3 +1,4 @@
+import { PageHeader } from "./PageHeader";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -15,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body>
-        <Header />
+        <PageHeader />
         {children}
         <footer>Footer</footer>
       </body>
