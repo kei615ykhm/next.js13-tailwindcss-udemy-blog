@@ -6,7 +6,7 @@ export const PageHeader: React.FC = () => {
     <header className="py-5 px-10 border-b flex justify-between item-cen">
       <div></div>
       <div>
-        <nav>
+        <nav className="text-sm font-medium">
           <Link href="/articles/new">記事を書く</Link>
         </nav>
       </div>
