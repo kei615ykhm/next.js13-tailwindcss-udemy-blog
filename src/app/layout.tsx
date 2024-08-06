@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className="container mx-auto bg-slate-700">
+      <body className="container mx-auto bg-slate-700 text-slate-50">
         <PageHeader />
         {children}
         <PageFooter />
