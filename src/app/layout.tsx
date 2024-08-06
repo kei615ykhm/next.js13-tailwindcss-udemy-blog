@@ -1,4 +1,5 @@
 import { PageHeader } from "./PageHeader";
+import PageFooter from "./PageFooter";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -18,7 +19,7 @@ export default function RootLayout({
       <body>
         <PageHeader />
         {children}
-        <footer>Footer</footer>
+        <PageFooter />
       </body>
     </html>
   );
