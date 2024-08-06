@@ -9,6 +9,11 @@ export const PageHeader: React.FC = () => {
           <Link href="/">Next.js13 Blog</Link>
         </h1>
       </div>
+      <div>
+        <nav>
+          <Link href="/articles/new">記事を書く</Link>
+        </nav>
+      </div>
     </header>
   );
 };
