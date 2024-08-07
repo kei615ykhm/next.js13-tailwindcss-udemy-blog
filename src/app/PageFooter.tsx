@@ -7,5 +7,3 @@ const PageFooter = () => {
     </footer>
   );
 };
-
-export default PageFooter;
