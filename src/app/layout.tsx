@@ -1,4 +1,4 @@
-import { PageHeader } from "./PageHeader";
+import Header from "./Header";
 import PageFooter from "./PageFooter";
 import type { Metadata } from "next";
 import "./globals.css";
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className="container mx-auto bg-slate-700 text-slate-50">
-        <PageHeader />
+        <Header />
         {children}
         <PageFooter />
       </body>
