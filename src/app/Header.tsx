@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-export const PageHeader: React.FC = () => {
+export default function Header() {
   return (
     <header className="py-5 px-10 border-b flex justify-between item-cen">
       <div>
@@ -21,4 +21,4 @@ export const PageHeader: React.FC = () => {
       </div>
     </header>
   );
-};
+}
