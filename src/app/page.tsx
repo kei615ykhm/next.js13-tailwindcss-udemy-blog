@@ -1,5 +1,12 @@
 import Image from "next/image";
+import ArticleList from "./components/ArticleList";
 
 export default function Home() {
-  return <div></div>;
+  return (
+    <div>
+      <section>
+        <ArticleList />
+      </section>
+    </div>
+  );
 }
