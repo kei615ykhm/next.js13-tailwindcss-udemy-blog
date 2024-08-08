@@ -1,3 +1,5 @@
+import Header from "./Header";
+import Footer from "./Footer";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -14,7 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body className="container mx-auto bg-slate-700 text-slate-50">
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
