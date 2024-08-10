@@ -14,7 +14,7 @@ const ArticleList = () => {
             height={300}
           />
         </Link>
-        <div>
+        <div className="bg-white">
           <Link href="#">technology</Link>
           <Link href="#">Next.jsの勉強中</Link>
           <p>By kei615ykhm, 2024/08/10</p>
