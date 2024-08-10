@@ -8,7 +8,7 @@ const ArticleList = () => {
       <article>
         <Link href="#">
           <Image
-            src="https://source.unsplash.com/collection/1346951/1000x500?sig=1"
+            src="https://picsum.photos/1000/500"
             alt=""
             width={1280}
             height={300}
