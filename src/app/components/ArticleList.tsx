@@ -10,7 +10,7 @@ const ArticleList = () => {
           <Image
             src="https://source.unsplash.com/collection/1346951/1000x500?sig=1"
             alt=""
-            widts={1280}
+            width={1280}
             height={300}
           />
         </Link>
