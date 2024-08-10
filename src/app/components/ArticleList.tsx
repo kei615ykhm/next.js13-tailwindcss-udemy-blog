@@ -5,7 +5,7 @@ import React from "react";
 const ArticleList = () => {
   return (
     <div>
-      <article>
+      <article className="shadow my-4">
         <Link href="#">
           <Image
             src="https://picsum.photos/1000/500"
