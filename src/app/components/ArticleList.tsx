@@ -24,6 +24,7 @@ const ArticleList = () => {
             sunt enim iure ratione quia possimus perspiciatis tempore facere,
             harum rem eaque incidunt?
           </a>
+          <Link href="#">続きを読む</Link>
         </div>
       </article>
     </div>
