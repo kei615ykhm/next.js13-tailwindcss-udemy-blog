@@ -15,15 +15,15 @@ const ArticleList = () => {
           />
         </Link>
         <div>
-          <a href="#">technology</a>
-          <a href="#">Next.jsの勉強中</a>
+          <Link href="#">technology</Link>
+          <Link href="#">Next.jsの勉強中</Link>
           <p>By kei615ykhm, 2024/08/10</p>
-          <a href="#">
+          <Link href="#">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
             placeat. Veritatis, debitis quidem. Fugiat alias assumenda sequi
             sunt enim iure ratione quia possimus perspiciatis tempore facere,
             harum rem eaque incidunt?
-          </a>
+          </Link>
           <Link href="#">続きを読む</Link>
         </div>
       </article>
