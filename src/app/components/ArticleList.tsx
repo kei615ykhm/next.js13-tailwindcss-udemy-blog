@@ -18,6 +18,12 @@ const ArticleList = () => {
           <a href="#">technology</a>
           <a href="#">Next.jsの勉強中</a>
           <p>By kei615ykhm, 2024/08/10</p>
+          <a href="#">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+            placeat. Veritatis, debitis quidem. Fugiat alias assumenda sequi
+            sunt enim iure ratione quia possimus perspiciatis tempore facere,
+            harum rem eaque incidunt?
+          </a>
         </div>
       </article>
     </div>
