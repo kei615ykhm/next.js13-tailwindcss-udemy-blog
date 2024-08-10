@@ -15,7 +15,9 @@ const ArticleList = () => {
           />
         </Link>
         <div className="bg-white">
-          <Link href="#">technology</Link>
+          <Link href="#" className="text-blue-700 pd-4 font-bold">
+            technology
+          </Link>
           <Link href="#">Next.jsの勉強中</Link>
           <p>By kei615ykhm, 2024/08/10</p>
           <Link href="#">
