@@ -14,6 +14,11 @@ const ArticleList = () => {
             height={300}
           />
         </Link>
+        <div>
+          <a href="#">technology</a>
+          <a href="#">Next.jsの勉強中</a>
+          <p>By kei615ykhm, 2024/08/10</p>
+        </div>
       </article>
     </div>
   );
