@@ -6,7 +6,7 @@ const ArticleList = () => {
   return (
     <div>
       <article className="shadow my-4">
-        <Link href="#">
+        <Link href="#" className="hover:opacity-75">
           <Image
             src="https://picsum.photos/1000/500"
             alt=""
