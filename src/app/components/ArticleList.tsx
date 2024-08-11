@@ -5,7 +5,7 @@ import React from "react";
 const ArticleList = () => {
   return (
     <div>
-      <article className="shadow my-4">
+      <article className="shadow my-4 flex flex-col">
         <Link href="#" className="hover:opacity-75">
           <Image
             src="https://picsum.photos/1000/500"
@@ -14,7 +14,7 @@ const ArticleList = () => {
             height={300}
           />
         </Link>
-        <div className="bg-white">
+        <div className="bg-white flex flex-col">
           <Link href="#" className="text-blue-700 pb-4 font-bold">
             technology
           </Link>
