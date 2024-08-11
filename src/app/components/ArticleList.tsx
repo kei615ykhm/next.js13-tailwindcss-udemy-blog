@@ -15,7 +15,7 @@ const ArticleList = () => {
           />
         </Link>
         <div className="bg-white">
-          <Link href="#" className="text-blue-700 pd-4 font-bold">
+          <Link href="#" className="text-blue-700 pb-4 font-bold">
             technology
           </Link>
           <Link
