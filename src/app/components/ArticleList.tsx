@@ -14,7 +14,7 @@ const ArticleList = () => {
             height={300}
           />
         </Link>
-        <div className="bg-white flex flex-col">
+        <div className="bg-white flex flex-col  justify-start p-6">
           <Link href="#" className="text-blue-700 pb-4 font-bold">
             technology
           </Link>
