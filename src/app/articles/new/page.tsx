@@ -2,8 +2,8 @@ import React from "react";
 
 const CreateBlogPage = () => {
   return (
-    <div>
-      <h2>ブログ新規作成</h2>
+    <div className="min-h-screen py-8 px-4 md:px-12">
+      <h2 className="text-2xl font-bold mb-4">ブログ新規作成</h2>
 
       <form className="bg-slate-200 p-6 rounded shadow-lg">
         <div className="mb-4">
