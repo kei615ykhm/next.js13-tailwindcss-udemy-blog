@@ -20,7 +20,7 @@ const ArticleList = () => {
           </Link>
           <Link
             href="#"
-            className="text-slate-900 text-3x1 font-bold hover:text-gray-700"
+            className="text-slate-900 text-3xl font-bold hover:text-gray-700"
           >
             Next.jsの勉強中
           </Link>
