@@ -1,11 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["source.unsplash.com"],
-  },
-  experimental: {
-    appDir: true,
+    domains: ["picsum.photos"],
   },
 };
-
 module.exports = nextConfig;
