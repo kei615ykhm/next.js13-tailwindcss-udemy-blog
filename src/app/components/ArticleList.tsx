@@ -25,7 +25,7 @@ const ArticleList = () => {
             Next.jsの勉強中
           </Link>
           <p>By kei615ykhm, 2024/08/10</p>
-          <Link href="#">
+          <Link href="#" className="text-slate-900 pb-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
             placeat. Veritatis, debitis quidem. Fugiat alias assumenda sequi
             sunt enim iure ratione quia possimus perspiciatis tempore facere,
