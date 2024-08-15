@@ -9,4 +9,6 @@ export const getAllPosts = async (): Promise<Article[]> => {
 
   // fetchの結果をjsonに変換して返す（データを文字列に変換して返す）
   const articles = await res.json();
+  // ここで返ってきたデータは、APIのレスポンスのデータがそのまま返ってくる
+  return articles;
 };
