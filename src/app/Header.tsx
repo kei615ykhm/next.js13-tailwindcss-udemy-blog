@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="py-5 px-10 border-b flex justify-between item-cen">
+    <header className="py-5 px-10 border-b flex justify-between item-center">
       <div>
         <h1 className="text-2xl font-extrabold">
           <Link href="/">Next.js13 Blog</Link>
