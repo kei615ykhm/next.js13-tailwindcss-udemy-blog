@@ -1,4 +1,4 @@
-import { Article } from "./types";
+import { Article } from "./app/types";
 
 // type.tsのArticle型を返す関数
 export const getAllArticles = async (): Promise<Article[]> => {
