@@ -1,8 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { Article } from "@/app/types";
 
-const ArticleList = () => {
+type ArticleListProps = {
+  articles: Article[];
+};
+
+const ArticleList = ({ articles }: ArticleListProps) => {
   return (
     <div>
       <article className="shadow my-4 flex flex-col">
