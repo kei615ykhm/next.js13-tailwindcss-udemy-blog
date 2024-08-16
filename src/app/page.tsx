@@ -7,9 +7,12 @@ export default async function Home() {
   // この関数はblogAPI.tsで定義されていて、おそらくデータベースやAPIから記事を取得する
   const articles = await getAllArticles();
 
+  // 2. 取得した記事データをArticleListコンポーネントに渡して表示
   return (
     <div className="md:flex">
       <section className="w-full md:w-2/3 flex flex-col items-center px-3">
+        {/* 3. ArticleListコンポーネントにarticlesを渡す */}
+        {/* ArticleListコンポーネントは渡された記事データを使って記事一覧を表示する */}
         <ArticleList articles={articles} />
       </section>
 
