@@ -9,6 +9,8 @@ type ArticleListProps = {
   articles: Article[];
 };
 
+// ArticleListコンポーネントの定義
+// 親コンポーネントからarticlesプロプを受け取る
 const ArticleList = ({ articles }: ArticleListProps) => {
   return (
     <div>
