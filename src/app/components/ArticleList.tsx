@@ -14,6 +14,7 @@ type ArticleListProps = {
 const ArticleList = ({ articles }: ArticleListProps) => {
   return (
     <div>
+      {/* TODO: 以下のハードコードされた記事を削除し、articles.map()を使用して動的に生成する */}
       <article className="shadow my-4 flex flex-col">
         <Link href="#" className="hover:opacity-75">
           <Image
