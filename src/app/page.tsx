@@ -3,6 +3,7 @@ import ArticleList from "./components/ArticleList";
 import { getAllArticles } from "@/blogAPI";
 
 export default async function Home() {
+  // TODO: エラーハンドリングを追加する
   // 1. getAllArticles()関数を呼び出して全記事データを取得
   // この関数はblogAPI.tsで定義されていて、おそらくデータベースやAPIから記事を取得する
   const articles = await getAllArticles();
