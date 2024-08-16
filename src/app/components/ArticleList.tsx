@@ -3,6 +3,8 @@ import Link from "next/link";
 import React from "react";
 import { Article } from "@/app/types";
 
+// ArticleListPropsの型定義
+// articles: Article型の配列を受け取ることを指定
 type ArticleListProps = {
   articles: Article[];
 };
