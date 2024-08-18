@@ -1,10 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { Article } from "@/app/types";
 
-const ArticleList = () => {
+// ArticleListPropsの型定義
+// articles: Article型の配列を受け取ることを指定
+type ArticleListProps = {
+  articles: Article[];
+};
+
+// ArticleListコンポーネントの定義
+// 親コンポーネントからarticlesプロプを受け取る
+const ArticleList = ({ articles }: ArticleListProps) => {
   return (
     <div>
+      {/* TODO: 以下のハードコードされた記事を削除し、articles.map()を使用して動的に生成する */}
       <article className="shadow my-4 flex flex-col">
         <Link href="#" className="hover:opacity-75">
           <Image
